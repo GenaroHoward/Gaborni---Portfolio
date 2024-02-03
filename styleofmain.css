@@ -809,5 +809,45 @@ header{
 }
 
 /*===================================================================================================================*/
-
-
+@media only screen and (min-width: 2560px) 
+{
+    .thebox{
+        display: flex;
+    }
+    #memain{
+        transform: scale(2);
+        margin-right: 350px;
+    }
+    #secondbox{
+        transform: scale(2);
+    }
+}
+@media only screen and (min-width: 1980px) 
+{
+    .thebox{
+        display: flex;
+    }
+    #memain{
+        transform: scale(1.5);
+        margin-right: 150px;
+    }
+    #secondbox{
+        transform: scale(1.5);
+    }
+}
+@media only screen and (min-width: 1440px) 
+{
+    .thebox{
+        display: flex;
+    }
+    #memain{
+        transform: scale(1.5);
+        margin-right: 150px;
+    }
+    #secondbox{
+        transform: scale(1.5);
+    }
+}
+@media only screen and (max-width: 1366px) 
+{
+}
