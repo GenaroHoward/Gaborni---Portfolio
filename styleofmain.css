@@ -809,30 +809,17 @@ header{
 }
 
 /*===================================================================================================================*/
-@media only screen and (min-width: 2560px) 
+@media only screen and (min-width: 1366px) 
 {
     .thebox{
-        display: flex;
+    display: flex;
     }
     #memain{
-        transform: scale(2);
-        margin-right: 350px;
+        transform: scale(1.2);
+        margin-right: 50px;
     }
     #secondbox{
-        transform: scale(2);
-    }
-}
-@media only screen and (min-width: 1980px) 
-{
-    .thebox{
-        display: flex;
-    }
-    #memain{
-        transform: scale(1.5);
-        margin-right: 150px;
-    }
-    #secondbox{
-        transform: scale(1.5);
+        transform: scale(1.2);
     }
 }
 @media only screen and (min-width: 1440px) 
@@ -848,6 +835,30 @@ header{
         transform: scale(1.5);
     }
 }
-@media only screen and (max-width: 1366px) 
+@media only screen and (min-width: 1920px) 
 {
+    .thebox{
+        display: flex;
+    }
+    #memain{
+        transform: scale(1.7);
+        margin-right: 200px;
+    }
+    #secondbox{
+        transform: scale(1.7);
+    }
+}
+
+@media only screen and (min-width: 2560px) 
+{
+    .thebox{
+        display: flex;
+    }
+    #memain{
+        transform: scale(2);
+        margin-right: 350px;
+    }
+    #secondbox{
+        transform: scale(2);
+    }
 }
